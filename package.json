@@ -1,0 +1,32 @@
+{
+  "name": "flock-app-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "node": "node server.js"
+  },
+  "dependencies": {
+    "@types/socket.io": "^3.0.2",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "daisyui": "^3.7.7",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
